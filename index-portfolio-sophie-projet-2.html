@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style-portfolio-sophie-projet-2.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/selection-finale/favicon.png" type="image/png">
+    <meta name="description" content="Portfolio de Sophie Lambert, developpeuse web front end.
+    Apprenante à l'institut Marie-Thérèse Solacroup, en recherce de stage pour fin Avril 2023">
+    <title>Sophie Lambert</title>
+</head>
+
+
+
+
+<body >
+    <div id="topbar">       
+        <label for="toggle">☰</label>
+        <input type="checkbox" id="toggle">
+        <div class="menu-burger">
+            <a href="#about">
+                <img src="assets/selection-finale/nuage.png" class="image" alt="icone de nuage vert aquarellée">
+                <Span>About</Span>
+            </a>           
+            <a href="#cursus">
+                <img src="assets/selection-finale/vent.png" class="image"  alt="icone du vent rose aquarellée">
+                <span>Cursus</span>
+            </a>
+            <a href="#portfolio">
+                <img src="assets/selection-finale/soleil.png" class="image"   alt="icone du soleil jaune aquarellée">
+                <span>Portfolio</span>
+            </a>               
+            <a href="#contact">
+                <img src="assets/selection-finale/flocon.png" class="image"  alt="icone d'un flocon de neige beige aquarellée">
+                <span>Contact</span>
+            </a>                            
+        </div>
+    </div>
+
+
+    <header id="header" itemscope itemtype="https://schema.org/Person" >
+
+        <div class="entete"  >
+            <h1 itemprop="name">SOPHIE LAMBERT </h1>
+            <img src="assets/selection-finale/arc-en-ciel.png" class="logo" alt="Logo arc en ciel technique aquarellée">
+            <h2 class="junior">junior</h2>
+            <h2 itemprop="jobTitle">FRONT END developer</h2>
+            <img  itemprop="image"  src="assets/selection-finale/photo-sophie-mobile.png" class="photo-sophie" alt="portrait sophie Lambert">
+    
+
+            <blockquote><span>L</span> a vie est comme un arc-en-ciel : il faut <br>
+                         de la pluie et du soleil pour en voir les <br>
+                                         couleurs. </blockquote>
+        </div>
+
+       
+        <div class="icons-bar" >
+          
+            <div class="icon-button">  <!--**on inserera la fonction copié coller avec du JS !-->
+                <label class="fenetre-ouvrante" for="the-mail-checkbox"> 
+                     <img src="assets/selection-finale/picto-mail.png"  class="icon" alt="logo de mail">
+                </label>
+                <input type="checkbox" id="the-mail-checkbox">
+                <div class="mail-text" itemprop="email"> lemaildesophielambert@gmail.com</div>                                 
+            </div> 
+
+            <div class="icon-button">   <!--**on inserera la fonction copié coller avec du JS !-->
+                <label class="fenetre-ouvrante" for="the-phone-checkbox"> 
+                    <img src="assets/selection-finale/picto-rotary-phone.png" class="icon" alt="logo rotary phone">
+                </label>
+                <input type="checkbox" id="the-phone-checkbox">
+                <div class="phone-text" itemprop="telephone"> 06.70.38.16.12</div>
+            </div>
+
+            <div class="icon-button"> 
+                <a href="https://www.linkedin.com/in/sophie-lambert-6040a62a/"   itemprop="url" itemprop="hasPart" rel="me" target="_blank">
+                    <img src="assets/selection-finale/picto-linkedin.png"  class="icon" alt="logo linkedin">
+                </a>
+            </div>
+
+            <div class="icon-button"> 
+                <a href="assets/selection-finale/cv-sophie-lambert.pdf"   itemprop="url" itemprop="hasPart" rel="me" target="_blank">
+                    <img src="assets/selection-finale/picto-cv.png" class="icon" alt="logo cv">
+                </a>
+            </div>
+
+            <div class="icon-button" >
+                <a href="#header"> 
+               <img src="assets/selection-finale/fleche.png"  class="icon" alt="logo de fleche"></a>
+           </div>
+
+       </div>
+
+
+    </header>
+
+
+    <nav>
+        <div class="menu-items">      
+            <a href="#about">
+                <div class="item-nuage"> 
+                    <img src="assets/selection-finale/nuage.png"  alt="icone de nuage vert aquarellée">
+                    <span>About</span>
+                </div>       
+            </a>           
+        </div>
+
+        <div class="menu-items">  
+            <a href="#cursus">
+                <div class="item-vent">
+                    <img src="assets/selection-finale/vent.png"  alt="icone du vent rose aquarellée">
+                    <span>Cursus</span>
+                </div>
+            </a>
+        </div>     
+
+        <div class="menu-items">
+            <a href="#portfolio">
+                <div class="item-soleil">
+                    <img src="assets/selection-finale/soleil.png"  alt="icone du soleil jaune aquarellée">
+                    <span>Portfolio</span>
+                </div>
+            </a>                
+        </div>
+
+        <div class="menu-items">
+            <a href="#contact">
+                <div class="item-flocon">
+                    <img src="assets/selection-finale/flocon.png"  alt="icone d'un flocon de neige beige aquarellée">
+                    <span>Contact</span>
+                </div>
+            </a>                           
+        </div>
+
+    </nav>
+    
+
+    <section id="about">
+   
+
+        <h3 class="about-nuage">
+            <img src="assets/selection-finale/nuage.png" class="h3-icone" alt="icone de nuage vert aquarellée">
+            <span>About</span>
+        </h3>
+
+       
+  
+        <div class="rain-background"></div>
+
+        <div class="about-box" itemscope itemtype="http://schema.org/Person">
+            <div class="about-right-box">
+
+                <blockquote class="montesquieu">
+                     <span>Q</span>ui aime à s’instruire, <br>
+                    n’est jamais oisif.  <br>
+                    <span>Charles de Montesquieu.</span>
+                </blockquote>
+
+            <img src="assets/selection-finale/soleil.png" class="soleil" alt="soleil jaune aquarellé">
+
+            </div>     
+             
+            <article id="article-about"  itemprop="description">
+                <blockquote >
+                    Je suis une développeuse web front end basée sous les embruns de Saint-Malo.
+                    En reconversion professionelle, je suis actuellement étudiante à l’IMTS.
+                </blockquote>
+                <div class="trait"></div>
+                <p>
+                    Les compétences peuvent être enseignées, la personnalité est inhérente … 
+                    Je n’aime pas me définir par le métier que je fais, par mes compétences ou mon savoir. 
+                    Je suis intimement convaincue que l’on est tous capables d’une grande polyvalence.
+                </p>
+                
+                <p>
+                    Continuer d’apprendre et se challenger toute la vie est une nécessité pour une bonne santé intellectuelle.
+                    Ce qui compte pour moi c’est de ne jamais me contenter de mon savoir, je suis passionnée, polyvalente avec 
+                    une capacité naturelle à ne pas connaître l’ennui, à être inspirée de tout.
+                </p>
+                <p>
+                    Mon énergie abondante me nourrit et me permet d’avoir de nombreux passe-temps et projets. J’aime aller au 
+                    bout des choses et ma ténacité me permet d’arriver a mes fins. 
+                </p>
+                <p>
+                    Je suis une personne sociable avec des émotions profondes, une sensibilité certaine et beaucoup d’empathie.
+                </p>
+                <div class="trait"></div>
+                <h4>
+                    MON HISTOIRE
+                </h4>
+                <br>
+                <P>
+                    Depuis que je suis enfant, j'ai toujours aimé l'art, l'artisanat, le dessin et la fabrication de choses en 
+                    tous genres. Je dessinais à 4 ans, en 1984, sur le premier PC de mon père.
+                </P>
+                <p>
+                    Alors que je trouvais les projets créatifs amusants, je ne m'imaginais que faire d’un travail de bureau 
+                    « stable » dans une grande entreprise, parce que c'est ce que font les adultes, n'est-ce pas ?
+                </p>
+                <P>
+                    À la fin du lycée, je n'avais absolument aucune idée de ce que je voulais faire, ni même de ce qui pouvait 
+                    s’ouvrir à moi. A la va vite, me fiant à mes résultats scolaires, je me suis dirigée vers un prépa Sage-femme.
+                    Le problème était alors de faire face à des issues de naissances malheureuses avec une sensibilité accrue… il 
+                    valait mieux changer d’idée rapidement! 
+                </P>
+                <P>
+                    Pour occuper le temps, mes parents ne souhaitant pas me voir trop tôt entrer dans le monde du travail j’ai 
+                    intégré une formation BEP/CAP de confection textile.
+                    J’avais une appétence pour tout cela.Couture, patronage, c’était fun, ludique.
+                </P>
+                <P>
+                    Piquée par la fièvre de la machine à coudre, j’ai enchainé sur une formation de styliste modéliste à ESMOD paris. 
+                    Une nouvelle donne entrait dans l’équation : La Mode...fun mais superficielle. 
+                </P>
+                <P>
+                    Mon premier job en poche je découvre la production de masse, l’exploitation humaine des pays sous développés 
+                    ou en voie de développement, la pollution engendrée par ces millions de vêtements vomis chaque jour par la fast
+                    fashion, les produits chimiques polluants autant la terre que les poumons des ouvrier.ères…il fallait changer! 
+                </P>
+                <P>
+                    Que se passait il derrière nos ordinateurs, derrière ce truc génial qui s’appelait internet. J’avais tellement 
+                    envie de savoir, de comprendre. L’idée voulait germer mais je ne l’arrosais pas, il me semblait que ce n’était 
+                    réservé qu’aux personnes très intelligentes. Et puis un jour, l’envie et la curiosité sont passées au dessus des
+                    fausses croyances ! 
+                </P>
+                <P>
+                    Début d’un nouveau chapitre… Je suis mordue de conception web, j’adore la combinaison de l’art numérique et de
+                    la programmation. Je suis nouvelle dans le domaine mais déjà accro et avide d’expérimenter toutes sortes de 
+                    sites différents.Chaque projet me fera grandir et acquérir plus d’expérience et j’espère ne jamais être rassasiée.
+                </P>  
+            </article>   
+        
+        </div>
+         
+    </section>
+
+
+    <section id="cursus">
+         
+        <h3>
+            <img src="assets/selection-finale/vent.png" class="h3-icone" alt="icone de vent rose aquarellée">
+            <span>Cursus</span>
+        </h3>
+
+        <div class="cursus-box" itemprop="hasOccupation" itemscope itemtype="http://schema.org/Occupation">
+            <div class="graphic">
+                <H4 >MES COMPÉTENCES</H4>
+                <div class="artistic">
+                    <ol>
+                        <li>
+                            <img src="assets/selection-finale/arc-rose-2.png"  alt="graphic circle 2/2">
+                            <span itemprop="skills" class="adobe">Photoshop</span>
+                        </li>
+                        <li>
+                            <img src="assets/selection-finale/arc-rose-3.png" alt="graphic circle 3/2">
+                            <span itemprop="skills" class="adobe">Illustrator</span>
+                        </li>
+                        <li>
+                            <img src="assets/selection-finale/arc-rose-3.png" alt="graphic circle 3/2">
+                            <span itemprop="skills" class="keynote">Keynote</span>
+                        </li>
+                        <li>
+                            <img src="assets/selection-finale/arc-rose-2.png" alt="graphic circle 2/2">
+                            <span itemprop="skills"class="figma">Figma</span>
+                        </li>
+                    </ol>
+                </div>
+                <div class="code">
+                    <ol>
+                        <li>
+                            <img src="assets/selection-finale/arc-vert-1.png" alt="graphic circle 1/3">
+                            <span itemprop="skills" class="wordpress">Wordpress</span>
+                        </li>
+                        <li>
+                            <img src="assets/selection-finale/arc-vert-3.png" alt="graphic circle 3/3">
+                            <span   itemprop="skills"class="html">HTML</span>
+                        </li>
+                        <li>
+                            <img src="assets/selection-finale/arc-vert-2.png" alt="graphic circle 2/3">
+                            <span  itemprop="skills"class="css">CSS</span>
+                        </li>
+                        <li>
+                            <img src="assets/selection-finale/arc-vert-3.png" alt="graphic circle 3/3">
+                            <span  itemprop="skills"class="vscode">VScode</span>
+                        </li>
+                        <li>
+                            <img src="assets/selection-finale/arc-vert-1.png" alt="graphic circle 1/3">
+                            <span itemprop="skills" class="javascript">Java Script</span>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <article id="overflow-cursus"  itemscope itemtype="http://schema.org/EducationalOccupationalCredential">
+                <h4> MES FORMATIONS </h4>
+                <br>
+                <ol>
+                    <li  itemprop="description"  itemprop="name">
+                        2022-2023 CCP1 : développeur web/
+                        web mobile ( front end ). Puis CCP 2 développeur back end 2023-2024 <br>
+
+                        Institut Marie-Thérèse Solacroup Dinard .   
+                    </li>
+                    <li>2002-2003 Styliste / Modéliste, spécialisation homme.<br>
+
+                        Médaille de bronze du grand jury Marithé et François Girbaud.<br>
+                        ESMOD Paris.
+                    </li>
+                    <li>
+                        2009-2000 BEP prêt à porter, CAP couture floue. <br>
+                        Médaille de bronze Meilleure apprentie du Morbihan.<br>
+                        GRETA Lorient.
+                    </li>
+                    <li>
+                        1998-1999 Baccalauréat Scientifique option SVT. <br>
+                        Mention bien. <br>
+                        Le likès, Quimper.
+                    </li>
+                </ol>
+        <div class="cursus-box"  itemscope itemtype="http://schema.org/Occupation">
+            <div class="trait" > </div>
+                    <br>
+                    <h4>
+                        MES EXPÉRIENCES
+                    </h4>
+                    <br>
+                <ol>
+                    <li itemprop="name" itemprop="description" itemprop="skills" itemprop="jobTitle" itemprop="startDate" itemprop="endDate">
+                        2009-2021 Styliste Homme/Femme <br>
+                        Bonobo / Cache-Cache .<br>
+                        Groupe Beaumanoir .Saint-Malo.<br>
+                        Création du design produit,<br>
+                        Suivi du développement,<br>
+                        Mise au point des prototypes, <br>
+                        Validation des matières, des coloris, des accessoires, des créations graphiques.<br>
+                        Recherche des tendances,<br> 
+                        Création des thématiques et des gammes de couleurs.<br>
+                        Coordination des collections en collaboration avec l’équipe achat.<br> 
+                    </li>
+                    <li itemprop="name" itemprop="description" itemprop="skills" itemprop="jobTitle" itemprop="startDate" itemprop="endDate">
+                        2004-2009 Modéliste<br>
+                        La HALLE!Groupe Vivarté. Paris.
+                    </li>
+                    <li itemprop="name" itemprop="description" itemprop="skills" itemprop="jobTitle" itemprop="startDate" itemprop="endDate">
+                        2003-2004 Styliste / Modéliste<br>
+                        Gentleman Farmer. Paris.
+                    </li>
+                    <li itemprop="name" itemprop="description" itemprop="skills" itemprop="jobTitle" itemprop="startDate" itemprop="endDate">
+                        2003 Styliste Infographiste<br>
+                        Space maker, Paris.
+                    </li>
+                </ol>
+            </article>
+        </div>
+        
+        <div class="nuage-box"> <img src="assets/selection-finale/nuage-cut.png" class="nuage" alt="nuage vert aquarellée"></div>
+        <div class=rain-background-2></div>
+
+    </section>
+
+
+    <section id="portfolio">
+
+
+        <h3>
+            <img src="assets/selection-finale/soleil.png" class="h3-icone" alt="icone du soleil jaune aquarellée">
+            <span class="portfolio">Portfolio</span>
+        </h3>
+
+        <div class="overflow-portfolio" itemscope itemtype="https://schema.org/CreativeWork">
+  
+                <div class="projet"> 
+
+                    <div class="projet-box">
+
+                        <div class="projet-front">    
+                            <img  itemprop="image" src="assets/selection-finale/logo-creperie.png" class="logo-projet" alt="logo du projet La crème crêperie">
+                        </div>
+                       
+                        <div class="projet-back"> 
+                                                  
+                                <ol class="cards-list" itemprop="description" >
+                                   
+                                    <li >
+                                        <img  src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                        Création d'une maquette pour une crêperie fictive "La crême".
+                                    </li>
+                                    <li>
+                                        <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                        Intégration du site de la crêperie "La crême" d'après une maquette figma commune à toute la classe.
+                                    </li>
+                                    <li>
+                                        <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                        Le site devait être one page et responsive avec menu burger.
+                                    </li>
+                                    <li>
+                                        <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                        Technos utilisées : HTML & CSS.
+                                    </li>
+                                    <li>
+                                        <div class="lien-projet"><a href="http://sophie.fronthub.fr/projet-web/la-creme/" target="blank" > voir le projet </a> </div> 
+                                    </li>
+
+                                </ol> 
+                            
+                        </div> 
+                       
+                    </div>
+
+                </div>  
+           
+                <div class="projet"> 
+
+                    <div class="projet-box">
+
+                        <div class="projet-front">
+                            <img itemprop="image" src="assets/selection-finale/logo-esprit-nordic.png" class="logo-projet" alt="logo du projet Esprit Nordic">
+                        </div>
+                       
+                        <div class="projet-back">
+                           
+                                <ol class="cards-list" itemprop="description">
+                                   
+                                    <li>
+                                        <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                        D'après une maquette jpg et un logo, création d'une one page.
+                                    </li>
+                                    <li>
+                                        <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                        Responsive ( mobile et desktop).
+                                    </li>
+                                    <li>
+                                        <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                        Y inétgrer un feed Instagram + trouver les ressources nécessaires.
+                                    </li>
+                                    <li>
+                                        <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                        Technos utilisées : HTML & CSS.
+                                    </li>
+                                    <li>
+                                        <div class="lien-projet"><a href="http://sophie.fronthub.fr/projet-web/esprit-nordic/" target="blank" >voir le projet </a> </div> 
+                                    </li>
+
+                                </ol>                      
+                        </div>
+                      
+                    </div>
+
+                </div>
+            
+            <div class="projet"> 
+
+                <div class="projet-box">
+
+                    <div class="projet-front">
+                        <img itemprop="image" src="assets/selection-finale/logo.Savons-de-Malo.png" class="logo-projet" alt="icone work in progress"> 
+                    </div>
+
+                    <div class="projet-back">
+                        <ol class="cards-list" itemprop="description">
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                Définir le contenu et l'arborescence d'un site web de vente en ligne.
+                            </li>
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                Créez cette arborescence et le site vitrine dans Wordpress sur le thème Divi.
+                            </li>
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                Transformer ce site en site e-commerce grâce à l'installation et la configuration de Woocommerce
+                            </li>
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                Rendre le site opérationnel jusqu'au paiement.
+                            </li>
+                            <li>
+                                <div class="lien-projet"><a href="https://sophie.fronthub.fr/wp/wordpress/" target="blank" >voir le projet </a> </div> 
+                            </li>
+
+                        </ol>
+                    </div>
+
+                </div>
+
+            </div>   
+
+            <div class="projet"> 
+
+                <div class="projet-box">
+
+                    <div class="projet-front">
+                        <img itemprop="image" src="assets/selection-finale/Work-in-progress.png" class="logo-projet" alt="icone work in progress"> 
+                    </div>
+
+                    <div class="projet-back">
+                        <ol class="cards-list" itemprop="description">
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                will-comming.
+                            </li>
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                will-comming.
+                            </li>
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                will-comming.
+                            </li>
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                will-comming.
+                            </li>
+                        </ol>
+                    </div>
+
+                </div>
+
+            </div>     
+
+            <div class="projet"> 
+
+                <div class="projet-box">
+
+                    <div class="projet-front">
+                        <img itemprop="image" src="assets/selection-finale/Work-in-progress.png" class="logo-projet" alt="icone work in progress"> 
+                    </div>
+
+                    <div class="projet-back">
+                        <ol class="cards-list" itemprop="description">
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                will-comming.
+                            </li>
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                will-comming.
+                            </li>
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                will-comming.
+                            </li>
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                will-comming.
+                            </li>
+                        </ol>
+                    </div>
+
+                </div>
+
+            </div>    
+
+            <div class="projet"> 
+
+                <div class="projet-box">
+
+                    <div class="projet-front">
+                        <img itemprop="image" src="assets/selection-finale/Work-in-progress.png" class="logo-projet" alt="icone work in progress"> 
+                    </div>
+
+                    <div class="projet-back">
+                        <ol class="cards-list" itemprop="description">
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                will-comming.
+                            </li>
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                will-comming.
+                            </li>
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                will-comming.
+                            </li>
+                            <li>
+                                <img src="assets/selection-finale/soleil.png" class="mini-icone-soleil" alt="icone du soleil jaune aquarellée"> 
+                                will-comming.
+                            </li>
+                        </ol>
+                    </div>
+
+                </div>
+
+            </div>  
+
+        </div>  
+
+    </section>
+
+
+    <section id="contact">
+
+        <div class="snow-background"></div>
+
+        <h3>
+            <img src="assets/selection-finale/flocon.png" class="h3-icone" alt="icone de flocon beige aquarellée">
+            <span>Contact</span>
+        </h3>
+
+        <div class="formulaire"> 
+
+            <h4>" ÉCHANGEONS ! "</h4>
+            <div class="flex-info-contact">   
+                
+                <div class="contenu"  itemscope itemtype="https://schema.org/PostalAddress" itemtype="https://schema.org/Person">
+                    <ol>
+                        <li class="lambert" itemprop="name">Sophie Lambert</li>
+                        <li class="lemail" itemprop="email">lemaildesophielambert@gmail.com</li>
+                        <li class="mobile" itemprop="telephone">Mobile: 06.70.38.16.12</li>
+                        <li class="malo" itemprop="addressLocality">Saint-Malo</li>
+                    </ol>
+                </div>
+
+                <img itemprop="image" src="assets/selection-finale/photo-sophie-lambert-contact.png" class="photo-contact" alt="photo portratit de sophie en noir et blanc">   
+               
+            </div>
+        </div> 
+    </section>
+
+      
+    
+</body>
+
+
+
+<footer>
+    <!--**
+    <button class="dont-touch-bouton" onclick="window.location.href='#entete';">
+        <span>NE PAS CLIQUER</span>
+    </button>
+    <button class="stop" onclick="window.location.href='#entete';">
+        <span>NE PAS CLIQUER !!!</span>
+    </button>
+    **!-->       
+    <!--** <p>Sophie Lambert</p>
+        <p>06.70.38.16.12</p>
+        <p>lemaildesophielambert@gmail.com</p>  **!-->  
+        <p>copyright Sophie Lambertⓒ 2022</p>
+       <!--**   <p>6 rue Emile Lhote <br>
+           35400 St Malo
+        </p> **!-->  
+</footer>
+
+
+       
+

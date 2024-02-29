@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "Docs"
+		},
+		{
+			"path": "assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "assets"
+	}
+}

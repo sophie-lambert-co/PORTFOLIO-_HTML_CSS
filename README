@@ -1,0 +1,32 @@
+# Portfolio en HTML & CSS
+
+Ce projet est un portfolio personnel simple créé uniquement avec HTML et CSS.
+ Il sert à présenter mes compétences, mon expérience et mes projets réalisés.
+
+## Technologies utilisées
+
+- HTML5
+- CSS3
+
+## Structure du projet
+
+Le projet est structuré comme suit :
+
+- `index.html` : La page principale du portfolio.
+- `styles.css` : Le fichier CSS pour le style de la page.
+- `assets/` : Un dossier contenant toutes les images utilisées dans le projet.
+
+## Ameliorations fututres
+
+- Remplacer les scrollbars par des boutons de navigation ou des carousels.
+- Ajouter des liens vers les réseaux sociaux.
+- Ajouter un Numero de téléphone et une adresse email cliquable.
+- Ajouter un formulaire de contact.
+- Ajouter des projets récents.
+- Ameliorations du JavaScript pour les animations.
+
+Si vous avez des questions ou des commentaires, n'hésitez pas à me contacter.
+
+## Auteur
+
+[Sophie Lambert]
