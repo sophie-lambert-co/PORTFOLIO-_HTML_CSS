@@ -223,25 +223,6 @@ label {
     cursor: pointer;
 }
 
-
-.mail-text {
-    transform: translate(500px);
-    transition: all 1s;
-    border-radius: 15px; 
-    position: relative;
-    top: 6px;
-    display: flex;
-    align-items: center;
-    width: 300px;
-    height: 1em;
-    padding: 10px;
-    font-size: 14px;
-    text-align: center;
-    background: #E99A8F;
-    color: #573B30;   
-}
-
-
 input:checked ~ .mail-text {
     transform: translate(15px);
     transition: 1s;  
@@ -252,22 +233,6 @@ input:checked ~ .mail-text {
     /*BOUTON PHONE*/
 
 
-.phone-text {
-    transform: translate(500px);
-    transition: all 1s;
-    border-radius: 15px;   
-    height: 1em;
-    align-items: center;
-    position: relative;
-    top: 6px;
-    display: flex;
-    width: 300px;
-    padding: 10px;
-    font-size: 14px;
-    text-align: center;
-    background: #E99A8F;
-    color: #573B30;       
-}
       
     
 input:checked ~ .phone-text {
@@ -497,9 +462,7 @@ h3 .about-nuage{
     font-size: 14px;
     font-weight: 600;
     color: #573B30;
-    overflow-y: scroll;
-    height: 60vh;
-    width: 45vw;
+    width: 50vw;
     border:3px solid rgb(128, 171, 154);
     border-radius : 15px;
     padding: 15px;   
@@ -549,6 +512,7 @@ h3 .about-nuage{
     font-family: 'Nunito',sans-serif;
     font-weight: 600;
     color: #573B30;
+    padding-top: 20px;
 }
 
 
