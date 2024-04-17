@@ -7,7 +7,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}æ©
+}
 
 
 html {
@@ -246,14 +246,14 @@ input:checked ~ .phone-text {
  /*BARRE DE NAV*/
 
 
-nav{
+nav {
     font-family: 'Londrina Shadow';
     display: flex;
     justify-content: space-around;
-    padding-top: 2vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
     padding-left: 4vw;
     padding-right: 4vw;
-    margin: 0px;
     background-color: #FFFDFA;
     height: 11vh;
     position:sticky;
@@ -459,7 +459,7 @@ h3 .about-nuage{
 
 #article-about {
     margin-right: 100px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: #573B30;
     width: 50vw;
@@ -565,20 +565,40 @@ p {
 }
 
 
-.cursus-box{
+.cursus-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     margin-top: 2vh;
 }
 
+.cursus-container span{
+   font-weight: bold;
+   font-size: 18px;
+}
 
-.graphic{
-    width: 50vw;
-    margin:5vh 5vw 5vh 5vw;
+
+.cursus-box{
     display:flex;
     flex-direction: column;
-    justify-content: center;
+
+}
+
+.job-box{
+    display:flex;
+    flex-direction: column;
+    margin-left: 10em;
+}
+
+
+
+.graphic{
+    width: 100vw;
+    /*margin:5vh 5vw 5vh 5vw;*/
+    display:flex;
+    flex-direction: column;
+    justify-content: center;    
+    flex-wrap: wrap; /* Ajout pour permettre le repliement sur plusieurs lignes */
 }
 
 
@@ -612,7 +632,7 @@ li img{
 
 
 li span {
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
@@ -626,54 +646,52 @@ li span {
 }
 
 
-#overflow-cursus li{
+#overflow-cursus li {
     margin-top: 15px;
     list-style-type:none;
     padding: 10px;
-    display: block;
+    display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-
 #overflow-cursus{
-    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
     margin-top: 10vh;
-    font-size: 14px;
+    font-size: 16px;
     text-align: start;
     font-style: normal;
     font-family: 'Nunito',sans-serif;
     font-weight: 600;
     color: #573B30;
-    overflow-y: scroll;
-    height: 60vh;
-    width: 54vw;
+    /*height: 60vh;*/
     border:3px solid rgb(233, 155, 144);
     border-radius : 15px;
-    padding: 10px;
+    padding: 5em;
     background-color:rgba(233, 154, 144, 0.162); 
     line-height:150% ;
     box-shadow: 1px 1px 1px 1px #573b305f;   
 }
 
 
-#overflow-cursus::-webkit-scrollbar {
+/* #overflow-cursus::-webkit-scrollbar {
     width: 14px;
     height: 0;   
-}
+} */
 
 
-#overflow-cursus::-webkit-scrollbar-track {
+/* #overflow-cursus::-webkit-scrollbar-track {
     background: transparent none;
 	border: solid 4px transparent;
 	border-right-width: 8px;
 	margin: 4px; 
     -webkit-box-shadow: 
         inset 1px 1px 0 0 rgb(233, 155, 144), inset -1px -1px 0 0 rgb(233, 155, 144);    
-}
+} */
    
 
-#overflow-cursus::-webkit-scrollbar-thumb {
+/* #overflow-cursus::-webkit-scrollbar-thumb {
     background: transparent; 
     border: solid 0 transparent;
     border-right-width: 4px;
@@ -681,23 +699,17 @@ li span {
     -webkit-border-top-right-radius: 9px 5px;
      -webkit-border-bottom-right-radius: 9px 5px;
      -webkit-box-shadow: inset 0 0 0 1px rgb(233, 155, 144), inset 0 0 0 6px rgb(233, 155, 144); 
-}
+} 
   
 
-#overflow-cursus::-webkit-scrollbar-thumb:hover {						
+/* #overflow-cursus::-webkit-scrollbar-thumb:hover {						
         -webkit-box-shadow: inset 0 0 0 1px rgb(233, 155, 144), inset 0 0 0 6px rgb(233, 155, 144);
    
-}
+} */
 
 
 .graphic h4{
-    padding: 3vw 3vh 3vw 3vh;
-}
-
-
-.cursus-box{
-    display:flex;
-    flex-direction: row;
+    padding: 1em 4em;
 }
 
 
@@ -712,6 +724,24 @@ li span {
     box-shadow: 1px 1px 1px 1px #573b305f;  
 }
 
+.icon-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+.icon-skill {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 1.5em;
+}
+
+.icon-skill img {
+    width: 6em; 
+    height: auto; 
+}
 
 .nuage{
     position: absolute;
@@ -767,10 +797,11 @@ li span {
 
 .overflow-portfolio{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     width: auto;
-    height: 60vh;
+    /*height: 60vh;*/
     overflow-x: scroll;
     overflow-y:hidden;
     margin-right: 145px;
@@ -783,23 +814,23 @@ li span {
 }
 
 
-.overflow-portfolio::-webkit-scrollbar {
+/* .overflow-portfolio::-webkit-scrollbar {
     width: auto;
     height: 14px;   
-}
+} */
 
 
-.overflow-portfolio::-webkit-scrollbar-track {
+/* .overflow-portfolio::-webkit-scrollbar-track {
     background: transparent none;
 	border: solid 4px transparent;
 	border-bottom-width: 8px;
 	margin: 4px; 
     -webkit-box-shadow: 
         inset 1px 1px 0 0  rgb(240, 212, 151), inset -1px -1px 0 0  rgb(240, 212, 151);    
-}
+} */
    
 
-.overflow-portfolio::-webkit-scrollbar-thumb {    
+/* .overflow-portfolio::-webkit-scrollbar-thumb {    
     background: transparent; 
     border: solid 0 transparent;
     border-bottom-width: 2px;
@@ -808,7 +839,7 @@ li span {
     -webkit-border-top-left-radius: 4px 8px;
     -webkit-border-bottom-left-radius: 4px px;
     -webkit-box-shadow: inset 0 0 0 1px  rgb(240, 212, 151), inset 0 0 0 6px  rgb(240, 212, 151); 
-}
+} */
   
 
 .logo-projet{
@@ -818,9 +849,11 @@ li span {
     justify-content: center;
     width: 90%;
     max-height: 90%;
-    padding: 5% 5% 5% 5%;    
- } 
-
+    padding: 5% 5% 5% 5%;  
+    align-content: center;
+    align-items: center;
+}  
+ 
 
 .projet {
     display:block;
@@ -870,6 +903,7 @@ li span {
 
 .projet-front{
     position: absolute;
+    display: flex;
     height: 100%;
     max-height: 98%;
     width: fit-content;
@@ -1133,7 +1167,7 @@ margin: 20px;
 @media only screen and (max-width: 950px) {
 
 html {
-    font-size: 14px;
+    font-size: 16px;
     line-height:1.2 ;  
 }
 
@@ -1325,7 +1359,7 @@ label{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    font-size: 12vw;
+    font-size: 14vw;
     color: #573B30;  
     cursor: pointer;
     padding: 0%;
@@ -1689,7 +1723,7 @@ footer{
 
 
 footer p {
-    font-size:14px;
+    font-size:16px;
 }
 
 
