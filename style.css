@@ -320,7 +320,7 @@ input:checked ~ .phone-text {
     left: 0vh;
     height: 0.375rem; /* 6vh / 16px */
     transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
-    background: #E99A8F;
+    background: #f1897a;
     border-radius: 10px;
 }
 
@@ -639,7 +639,7 @@ li span {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     color: #573B30;
-    border: 0.1875rem solid rgb(233, 155, 144); /* 3px / 16px */
+    border: 0.1875rem solid #f1897a; /* 3px / 16px */
     border-radius: 0.9375rem; /* 15px / 16px */
     padding: 5em; /* 80px / 16px */
     background-color: rgba(233, 154, 144, 0.162);
@@ -657,7 +657,7 @@ li span {
     content: '';
     width: 54%;
     height: 0.5rem; /* 8px / 16px */
-    background-color: #E99A8F;
+    background-color:#f1897a;
     margin: 6em 6em 10em;
     border-radius: 10px;
     box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem #573b305f; /* 1px 1px 1px 1px / 16px */
@@ -728,7 +728,7 @@ li span {
     content: '';
     width: 50vw;
     height: 0.5rem; /* 8px / 16px */
-    background-color: rgb(240, 212, 151);
+    background-color: #ecc267;
     margin: 8em;
     border-radius: 10px;
     box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem #573b305f; /* 1px 1px 1px 1px / 16px */
@@ -821,7 +821,7 @@ li span {
     transition: all 0.3s ease;
     transform-style: preserve-3d;
     border-radius: 10px;
-    border: 0.1875rem solid rgb(240, 212, 151); /* 3px / 16px */
+    border: 0.1875rem solid  #ecc267; /* 3px / 16px */
     box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem #573b308a; /* 1px 1px 1px 1px / 16px */
 }
 
@@ -962,7 +962,7 @@ li span {
 
 
 .lemail::after {
-    background-color: #F0D497;
+    background-color:#ecc267;
 }
 
 .mobile::after {
@@ -975,7 +975,7 @@ li span {
     content: '';
     width: 30%;
     height: 0.25rem; /* 4px / 16px */
-    background-color: #80AB9A;
+    background-color:#5cb793;
     border-radius: 10px;
     box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem #573b305f; /* 1px 1px 1px 1px / 16px */
 }
@@ -986,7 +986,7 @@ footer {
     flex-direction: row;
     width: 100%;
     height: 6.25rem; /* 100px / 16px */
-    background-color: #F0D497;
+    background-color: #ecc267;
     margin-bottom: 0;
     position: relative;
     bottom: 0;
@@ -1173,6 +1173,7 @@ label{
     padding: 5px;
     margin-right: 10px;
     width: fit-content;
+    width: -moz-fit-content;
     display : block;
     flex-direction: column;
     justify-content: center;
